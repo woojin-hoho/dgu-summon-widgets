@@ -21,7 +21,6 @@
   const btn   = document.getElementById("dgudb_btn");
   const out   = document.getElementById("dgudb_results");
 
-  // Summon 공개 API endpoint
   const SUMMON_API = "https://api.summon.serialssolutions.com/2.0.0";
 
   btn.onclick = async () => {
